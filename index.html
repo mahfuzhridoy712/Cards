@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+
+            background-color: rgb(214, 214, 214);
+            padding: 45px;
+            display: flex;
+
+        }
+
+        .card {
+            background-color: rgba(122, 100, 100, 0.9);
+            height: 550px;
+            width: 350px;
+            margin: 3px;
+            padding: 10px 10px 34px;
+            border-radius: 10px;
+            background: -webkit-linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, hsla(191, 28%, 23%, 1) 50%, hsla(207, 41%, 27%, 1) 100%);
+        }
+
+        .card:hover {
+
+            margin-top: 20px;
+            cursor: pointer;
+            box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+            transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+
+        }
+
+        .image {
+            padding: 25px;
+        }
+
+        .image img {
+            border-radius: 20px;
+        }
+
+        .capsule {
+            padding: 8px 4px;
+            text-align: center;
+        }
+
+        .capsule span {
+            border: 0.5px solid black;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .name {
+            margin-top: 5px;
+            font-family: "poppins", sans-serif;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        .button {
+            text-align: end;
+            padding: 25px;
+        }
+
+        .button .btn {
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 5px;
+            color: rgb(8, 8, 30);
+            background: linear-gradient(to right, #14382e, #cbcaa5);
+        }
+
+        .button .btn:hover {
+            text-decoration: underline;
+            background-color: rgb(35, 57, 57);
+
+        }
+
+        .capsule span:hover {
+            color: rgb(45, 6, 6);
+            background-color: rgb(15, 74, 69);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="card">
+        <div class="image">
+            <img src="rafa.jpeg" alt="error" height="250px" width="300">
+        </div>
+        <div class="capsule">
+            <span>Musician </span>
+        </div>
+        <div class="name">
+            <h2>AvoidRafa</h2>
+
+            <p>
+                Raef Al Hasan Rafa (born 27 October 1988) is a Bangladeshi singer, songwriter, and
+                multi-instrumentalist. He is best known as the former drummer of rock band Aurthohin and metal band
+                Cryptic Fate. He's also member of metal band Severe Dementia, Kral and The Joint Family. He is the
+                founding member of the rock band AvoidRafa
+            </p>
+            <div class="button">
+                <button class="btn">View more...</button>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin-left: 180px;
+            background: linear-gradient(to right, #5d4157, #a8caba);
+            padding: 45px;
+            display: flex;
+        }
+
+        .card2 {
+            background-color: gray;
+            height: 550px;
+            width: 350px;
+            margin: 3px;
+            padding: 10px 10px 34px;
+            border-radius: 10px;
+        }
+
+        .card2:hover {
+
+            margin-top: 20px;
+            cursor: pointer;
+            box-shadow: 0px 12px 30px 0px rgba(0, 0, 0, 0.2);
+            transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+
+        }
+
+        .image2 {
+            padding: 20px;
+        }
+
+        .image2 img {
+            border-radius: 10px;
+        }
+
+        .capsule2 {
+            padding: o 28px o 14px;
+            text-align: left;
+            margin-left: 15px;
+            text-align: center;
+        }
+
+        .capsule2 span {
+            border: 0.1px solid rgb(117, 113, 113);
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .name2 {
+            font-style: italic;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-family: "poppins", sans-serif;
+            padding: 15px;
+
+        }
+
+        .button2 {
+            text-align: center;
+            padding: 1px;
+            width: 100%;
+            height: 50px;
+
+        }
+
+        .button2 .btn2 {
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 5px;
+            color: rgb(8, 8, 30);
+            background-color: rgb(147, 159, 161);
+            background: linear-gradient(to right, #ff512f, #f09819);
+        }
+
+        .button2 .btn2:hover {
+            text-decoration: underline;
+            color: rgb(33, 13, 73);
+
+        }
+
+        .capsule2 span:hover {
+            color: rgb(186, 185, 185);
+            background: linear-gradient(to right, #603813, #b29f94);
+        }
+
+        ul.one {
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            font-family: fantasy;
+
+        }
+
+        ul li {
+
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card2">
+        <div class="image2">
+            <img src="Call out my name.jpeg" alt="error" height="300px" width="300">
+        </div>
+        <div class="capsule2">
+            <span>Musician </span>
+        </div>
+        <div class="name2">
+            <h2>
+                My Dear Melancholy,The Weeknd</h2>
+
+            <ul class="one">
+                <li>
+                    CALL OUT MY NAME.
+                </li>
+                <li>TRY ME.</li>
+                <li>WASTED TIMES</li>
+                <li>I WAS NEVER THERE</li>
+                <li>HURT YOU</li>
+            </ul>
+            <div class="button2">
+                <button class="btn2">play this album</button>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            padding: 45px;
+            display: flex;
+        }
+
+
+        .card3 {
+            background-color: #d3ceccd3;
+            height: 555px;
+            width: 350px;
+            margin: 3px;
+            padding: 10px 10px 34px;
+            border-radius: 10px;
+
+        }
+
+        .card3:hover {
+
+            margin-top: 20px;
+            cursor: pointer;
+            box-shadow: 0px 12px 150px 0px rgba(0, 0, 0, 10px);
+            transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+
+        }
+
+        .image3 {
+            padding: 10px;
+        }
+
+        .image3 img {
+            border-radius: 20px;
+        }
+
+        .capsule3 {
+            margin-left: 12px;
+            width: 90%;
+            border: 2px solid rgb(100, 50, 50);
+            border-radius: 20px;
+            text-align: center;
+            background: linear-gradient(to right, #fbd3e9, #bb377d);
+        }
+
+        .capsule3 span:hover {
+            text-shadow: #bb377d;
+            color: #a13072;
+        }
+
+        .name3 {
+            margin: 2px;
+            margin-right: 10px;
+            padding-left: 10px;
+
+            color: rgb(100, 50, 50);
+        }
+
+        .first {
+            font-family: "poppins", sans-serif;
+            padding-left: 15px;
+            text-decoration: none;
+            font-size: 14px;
+            color: rgb(99, 40, 50);
+        }
+
+        .info h3 {
+            margin-left: 2px;
+            margin: 2px;
+            padding-left: 10px;
+            color: rgb(100, 50, 50);
+        }
+
+        .second {
+            font-family: "poppins", sans-serif;
+            padding-left: 15px;
+            text-decoration: none;
+            font-size: 14px;
+            color: rgb(99, 40, 50);
+
+        }
+
+        .btn3 {
+            width: 95%;
+            padding: 2px;
+            border: 0.2px solid black;
+            border-radius: 10px;
+            margin-right: 5px;
+            margin-top: 7px;
+            background: linear-gradient(to right, #fbd3e9, #bb377d);
+
+        }
+
+        .button3 {
+            margin-left: 12px;
+        }
+
+        .button3 button:hover {
+            text-shadow: #bb377d;
+            color: #a13072;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card3">
+        <div class="image3">
+            <img src="lana del rey _ a.jpeg" alt="error" height="300px" width="320px">
+        </div>
+        <div class="capsule3">
+            <span>Artist</span>
+        </div>
+        <div class="name3">
+            <h2>Lana Del Rey</h2>
+        </div>
+        <ul class="first">
+            <li>Full Name: Elizabeth Woolridge Grant</li>
+            <li>Born: 21 June,1985</li>
+            <li>In: Manhattan</li>
+        </ul>
+        <div class="info">
+            <h3>
+                Albums
+            </h3>
+            <ul class="second">
+                <li>Born to Die</li>
+                <li>Ultraviolence</li>
+                <li>Lasso</li>
+                <li>Norman Fucking Rockwell!</li>
+                <li>Lust for Life</li>
+            </ul>
+            <div class="button3">
+                <button class="btn3">Play music</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
